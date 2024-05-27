@@ -19,7 +19,7 @@ Funcionalidade: Login
       Quando inserir os dados do usuário "lucasbra2000@outlook.com"
       Então devo visualizar o nome "Lucas"
 
-    Esquema do Cenario: Validar o login na aplicação
+    Esquema do Cenario: Validar mensagem de erro ao inserir dados incorretos
       Quando inserir os dados do usuário "dados_usuario"
       Então devo visualizar a mensagem de erro "Authentication failed."
 
